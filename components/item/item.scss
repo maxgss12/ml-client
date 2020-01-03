@@ -1,0 +1,26 @@
+@import '../../assets/flex-layout/flex-layout.scss';
+@import '../../assets/colors.scss';
+
+.item-container {
+    background-color: inherit;
+    padding: 16px;
+    width: 100%;
+}
+
+img.item-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.card h1 {
+    font-size: 24px;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+hr {
+    border: solid 0.5px $light-gray;
+}

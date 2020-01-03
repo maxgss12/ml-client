@@ -1,0 +1,17 @@
+$font-size: 50px;
+$bg_app: #EEE;
+
+.example {
+  font-size: $font-size;
+}
+
+body {
+  margin: 0;
+  background-color: $bg_app;
+}
+
+section {
+  width: 90%;
+
+  margin: 0 auto;
+}
