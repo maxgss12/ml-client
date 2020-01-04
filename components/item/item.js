@@ -17,7 +17,7 @@ const Item = (props) => {
                 <div className="item-container layout-row layout-align-space-between-center">
                     <div>
                         <div className="layout-row layout-align-start-center">
-                            <h1>{ props.item.price }</h1>
+                            <h1>$ { Number(props.item.price).toLocaleString('es') }</h1>
                             { hasfreeShipping(props.item.shipping.free_shipping) }
                         </div>
                         <h2>{ props.item.title }</h2>
