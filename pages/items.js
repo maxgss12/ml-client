@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../components/nav';
-import Router from 'next/router'
+import Head from 'next/head'
 import ItemsTable from '../components/items-table/items-table';
 import '../styles.scss';
 
@@ -56,6 +56,10 @@ export class Items extends Component {
 
     render() {
         return <React.Fragment>
+            <Head className="example">
+                <title>Resultados | Mercado Libre</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <Nav />
             <section>
                 <ItemsTable results={ this.state.items } />

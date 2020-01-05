@@ -1,5 +1,5 @@
 import './nav.scss';
-import SearchBox from "./search-box/search-box.component";
+import SearchBox from "./search-box/search-box";
 
 const Nav = () => (
   <header>

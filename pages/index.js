@@ -6,7 +6,7 @@ import '../styles.scss'
 const Home = () => (
   <div>
     <Head className="example">
-      <title>Home</title>
+      <title>Mercado Libre</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 

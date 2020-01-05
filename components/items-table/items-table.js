@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Item from '../item/item';
-import './item-table.scss';
+import '../item/item.scss';
+import '../../assets/flex-layout/flex-layout.scss';
 
 export default class ItemsTable extends Component {  
     showItems = () => {
